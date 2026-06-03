@@ -1,0 +1,105 @@
+{
+    "Scene 1": {
+        "Type" : "Dialogue",
+        "BG" : "Hitam",
+        "Text" : [
+            {"Char": "", "CharEx": 2, "Text": "Aku pernah bermimpi, menuju jalan yang tak pasti. Bisikan orang-orang menggema di kepalaku. Kupikir aku sudah berusaha, sudah membuktikan, sudah berjuang.", "BGM": "", "SFX": "", "Pos": ""},
+            {"Char": "", "CharEx":0, "Text": "Tapi, apakah orang lain menganggapnya begitu? Aku sudah terlalu lelah untuk memikirkan itu.", "BGM": "", "SFX": "", "Pos": ""}
+        ],
+        "Next" : "Scene 2"
+    },
+    "Scene 2": {
+        "Type" : "Dialogue",
+        "BG" : "Putih",
+        "Text" : [
+            {"Char": "", "CharEx":0, "Text": "Apakah ini akhirnya?", "BGM": "", "SFX": "", "Pos": ""}
+        ],
+        "Next" : "Scene 3"
+    },
+    "Scene 3": {
+        "Type" : "Video",
+        "BG" : [
+            {"BG": "sky_day", "Delay" : 3},
+            {"BG": "Kota_Mati_(Siang)", "Delay" : 2}
+        ],
+        "Next" : "Scene 4"
+    },
+    "Scene 4": {
+        "Type" : "Dialogue",
+        "BG" : "Kota_Mati_(Siang)",
+        "Text" : [
+            {"Char": "", "CharEx":0, "Text": "Seperti terbangun dari mimpi panjang, aku membuka mataku dan melihat hamparan warna biru. Melihat sekelilingku, sepertinya diriku terbangun di tengah kota.", "BGM": "", "SFX": "", "Pos": ""},
+            {"Char": "", "CharEx":0, "Text": "Namun, aku tidak melihat bahkan mendengar orang-orang. Aku terus berjalan, menuju pusat perbelanjaan, taman kota, restoran, bahkan tempat administrasi sekalipun.", "BGM": "", "SFX": "", "Pos": ""},
+            {"Char": "", "CharEx":0, "Text": "Layaknya kota mati, kemanapun aku berjalan, aku tak menemukan siapa-siapa.", "BGM": "", "SFX": "", "Pos": ""}
+        ],
+        "Next" : "Scene 5"
+    },
+        "Scene 5": {
+        "Type" : "Dialogue",
+        "BG" : "Kota_Mati_(Siang)",
+        "Text" : [
+            {"Char": "", "CharEx":0, "Text": "Tanpa kusadari, waktupun berlalu. Saat ingin mengistirahatkan mataku terdengar sebuah ledakan dari arah aku berjalan sebelumnya. Aku menelusuri jejakku sebelumnya dan mengikuti asal suara ledakan.", "BGM": "", "SFX": "", "Pos": ""},
+            {"Char": "", "CharEx":0, "Text": "*Duar", "BGM": "", "SFX": "ledakan", "Pos": ""}
+        ],
+        "Next" : "Scene 6"
+    },
+    "Scene 6": {
+        "Type" : "Dialogue",
+        "BG" : "Pusat_perbelanjaan_hancur",
+        "Text" : [
+            {"Char": "", "CharEx":0, "Text": "Pusat perbelanjaan yang kudatangi sebelumnya sudah rata dengan tanah. Dibalik puing-puing, suara raungan menggema di kota mati itu. Muncul monster yang mirip gajah bangkit dari puing-puing.", "BGM": "", "SFX": "", "Pos": ""},
+            {"Char": "", "CharEx":0, "Text": "“Kenapa?”", "BGM": "", "SFX": "", "Pos": ""},
+            {"Char": "", "CharEx":0, "Text": "Monster itu melihatku. Ia seperti mengambil ancang-ancang. Aku bergeming melihatnya.", "BGM": "", "SFX": "", "Pos": ""},
+            {"Char": "Varsya", "CharEx":4, "Text": "“Hei, kau bodoh apa tolol?”", "BGM": "", "SFX": "ledakan", "Pos": "Center"}
+        ],
+        "Next" : "Scene 7"
+    },
+    "Scene 7": {
+        "Type" : "Dialogue",
+        "BG" : "Hitam",
+        "Text" : [
+            {"Char": "", "CharEx":0, "Text": "Kita percepat", "BGM": "", "SFX": "", "Pos": ""},
+            {"Char": "", "CharEx":0, "Text": "*Clink *clank", "BGM": "", "SFX": "Sword_clash", "Pos": ""},
+            {"Char": "", "CharEx":0, "Text": "*Roar", "BGM": "", "SFX": "Dragon_roar", "Pos": ""}
+        ],
+        "Next" : "Choice 1"
+    },
+    "Choice 1": {
+        "Type" : "Choice",
+        "BG" : "Hitam",
+        "Option" : [
+            {"Text": "Lawan", "Next" : "Dead"},
+            {"Text": "Lari", "Next" : "Arise"}
+        ]
+    },
+    "Dead" : {
+        "Type" : "Video",
+        "BG" : [
+            {"BG": "darah1", "Delay" : 1},
+            {"BG": "darah2", "Delay" : 1}
+        ],
+        "Next" : "END"
+    },
+    "Arise" : {
+        "Type" : "Video",
+        "BG" : [
+            {"BG": "Naga1_a", "Delay" : 2},
+            {"BG": "Naga1_b", "Delay" : 2},
+            {"BG": "Naga2_a", "Delay" : 2},
+            {"BG": "Naga2_b", "Delay" : 2},
+            {"BG": "Naga3", "Delay" : 2},
+            {"BG": "Naga4", "Delay" : 2},
+            {"BG": "Naga5", "Delay" : 2},
+            {"BG": "Naga6", "Delay" : 2}
+        ],
+        "Next" : "END"
+    },
+    "END" : {
+        "Type" : "Dialogue",
+        "BG" : "Seramnyo",
+        "Text" : [
+            {"Char": "", "CharEx":0, "Text": "Prototype END", "BGM": "Afterglow_boss", "SFX": "", "Pos": ""}
+        ],
+        "Next" : ""
+    }
+}
