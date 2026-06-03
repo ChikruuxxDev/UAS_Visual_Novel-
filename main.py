@@ -1,7 +1,14 @@
 import pygame
 import json
 import os
+import ctypes
 from Core.Scene_Manager import SceneManager
+
+try:
+    # Memaksa Windows agar tidak melakukan auto-zoom pada jendela game
+    ctypes.windll.user32.SetProcessDPIAware()
+except AttributeError:
+    pass # Abaikan jika pemain menggunakan Mac / Linux
 
 pygame.init()
 
