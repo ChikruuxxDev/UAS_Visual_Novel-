@@ -1,0 +1,8 @@
+{
+    "Varsya" : {
+        "Expresion" : ["Varsya_normal", "Varsya_senyum", "Varsya_khawatir", "Varsya_terharu", "Varsya_sebal", "Varsya_mengejek", "Varsya_menangis"]
+    },
+    "Rena" : {
+        "Expresion" : ["Rena_pasien_normal", "Rena_school_cemburu", "Rena_school_normal"]
+    }
+}
