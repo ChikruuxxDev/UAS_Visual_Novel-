@@ -4,10 +4,10 @@
 [Tuliskan deskripsi singkat mengenai game Visual Novel buatan kelompokmu di sini. Ceritakan sedikit tentang plot/sinopsis game, latar belakang cerita, dan tujuan pembuatan project ini...]
 
 ## Anggota Kelompok
-1. [Nama Anggota 1] - [NIM Anggota 1]
-2. [Nama Anggota 2] - [NIM Anggota 2]
-3. [Nama Anggota 3] - [NIM Anggota 3]
-4. [Nama Anggota 4] - [NIM Anggota 4]
+1. Bintang Renaldy Pratama - [25051204026]
+2. Muchammad Achsan Ikhtaru Aufrendi - [25051204028]
+3. Klement Ezra Suhartanto - [25051204082]
+4. Ibrahim Soffa - [25051204085]
 
 ## Fitur Utama
 * **[Nama Fitur 1]**: [Penjelasan singkat fitur 1]
