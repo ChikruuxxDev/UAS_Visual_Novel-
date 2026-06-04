@@ -25,7 +25,9 @@ class BGManager:
             print(f"Background '{BGName}' not found")
             return
 
-        self.CurrentActiveBG = pygame.image.load(path).convert()
+        raw_image = pygame.image.load(path).convert()
+        self._CurrentBG = pygame.transform.scale(raw_image, (1280, 720))
+        self.CurrentActiveBG = self._CurrentBG
         self.CurrentBGName = BGName
 
     def Render(self, screen):
